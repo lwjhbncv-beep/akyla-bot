@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 import os
 import threading
 import time
@@ -150,7 +150,7 @@ def start_message(message):
             connection.commit()
     connection.close()
 
-welcome_text = (
+    welcome_text = (
         "💎 <b>Вітаємо у нашому сервісі!</b> 💎\n\n"
         "📍 <i>Місто: Кривий Ріг</i>\n\n"
         "<b>📋 Інструкція для замовлення:</b>\n"
