@@ -20,7 +20,7 @@ def run_flask():
     app.run(host="0.0.0.0", port=port)
 
 # --- НАЛАШТУВАННЯ ---
-TOKEN = os.environ.get("BOT_TOKEN", '9010056330:AAEOldgSrjSaZEjhNzaZU7bb3RFOiqT62kI')
+TOKEN = os.environ.get("BOT_TOKEN", '8960814936:AAHoQdBSyD8HFngDDnvmng-C2FJHJvBzOuo')
 ADMIN_ID = int(os.environ.get("ADMIN_ID", 6503705720))
 ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", 'AkylaRC')
 
